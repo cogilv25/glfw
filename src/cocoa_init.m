@@ -1,7 +1,7 @@
 //========================================================================
-// GLFW 3.3 macOS - www.glfw.org
+// GLFW 3.4 macOS - www.glfw.org
 //------------------------------------------------------------------------
-// Copyright (c) 2009-2016 Camilla Löwy <elmindreda@glfw.org>
+// Copyright (c) 2009-2019 Camilla Löwy <elmindreda@glfw.org>
 //
 // This software is provided 'as-is', without any express or implied
 // warranty. In no event will the authors be held liable for any damages
@@ -585,7 +585,7 @@ void _glfwPlatformTerminate(void)
 
 const char* _glfwPlatformGetVersionString(void)
 {
-    return _GLFW_VERSION_NUMBER " Cocoa NSGL"
+    return _GLFW_VERSION_NUMBER " Cocoa NSGL EGL OSMesa"
 #if defined(_GLFW_BUILD_DLL)
         " dynamic"
 #endif
